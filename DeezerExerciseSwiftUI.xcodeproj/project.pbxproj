@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B4BDF52756708A005F25D9 /* DeezerExerciseSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BDF42756708A005F25D9 /* DeezerExerciseSwiftUIApp.swift */; };
+		22B4BDF72756708A005F25D9 /* ArtistGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BDF62756708A005F25D9 /* ArtistGridView.swift */; };
+		22B4BDF92756708D005F25D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B4BDF82756708D005F25D9 /* Assets.xcassets */; };
+		22B4BDFC2756708D005F25D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B4BDFB2756708D005F25D9 /* Preview Assets.xcassets */; };
+		22B4BE102756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BE0F2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift */; };
+		22B4BE122756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BE112756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift */; };
+		22B4BE1F2756A35E005F25D9 /* ArtistDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BE1E2756A35D005F25D9 /* ArtistDetailsView.swift */; };
+		283BFB0527577F1C00621AAE /* DZRArtistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283BFB0427577F1C00621AAE /* DZRArtistTests.swift */; };
+		283BFB0727578C1D00621AAE /* SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283BFB0627578C1D00621AAE /* SearchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B4BE022756708D005F25D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B4BDE92756708A005F25D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B4BDF02756708A005F25D9;
+			remoteInfo = DeezerExerciseSwiftUI;
+		};
+		22B4BE0C2756708D005F25D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B4BDE92756708A005F25D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B4BDF02756708A005F25D9;
+			remoteInfo = DeezerExerciseSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B4BDF12756708A005F25D9 /* DeezerExerciseSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeezerExerciseSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B4BDF42756708A005F25D9 /* DeezerExerciseSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerExerciseSwiftUIApp.swift; sourceTree = "<group>"; };
+		22B4BDF62756708A005F25D9 /* ArtistGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistGridView.swift; sourceTree = "<group>"; };
+		22B4BDF82756708D005F25D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B4BDFB2756708D005F25D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22B4BE012756708D005F25D9 /* DeezerExerciseSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeezerExerciseSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B4BE0B2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeezerExerciseSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B4BE0F2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerExerciseSwiftUIUITests.swift; sourceTree = "<group>"; };
+		22B4BE112756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerExerciseSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22B4BE1E2756A35D005F25D9 /* ArtistDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsView.swift; sourceTree = "<group>"; };
+		283BFB0427577F1C00621AAE /* DZRArtistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZRArtistTests.swift; sourceTree = "<group>"; };
+		283BFB0627578C1D00621AAE /* SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B4BDEE2756708A005F25D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B4BDFE2756708D005F25D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B4BE082756708D005F25D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B4BDE82756708A005F25D9 = {
+			isa = PBXGroup;
+			children = (
+				22B4BDF32756708A005F25D9 /* DeezerExerciseSwiftUI */,
+				22B4BE042756708D005F25D9 /* DeezerExerciseSwiftUITests */,
+				22B4BE0E2756708D005F25D9 /* DeezerExerciseSwiftUIUITests */,
+				22B4BDF22756708A005F25D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B4BDF22756708A005F25D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B4BDF12756708A005F25D9 /* DeezerExerciseSwiftUI.app */,
+				22B4BE012756708D005F25D9 /* DeezerExerciseSwiftUITests.xctest */,
+				22B4BE0B2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B4BDF32756708A005F25D9 /* DeezerExerciseSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				22B4BDF42756708A005F25D9 /* DeezerExerciseSwiftUIApp.swift */,
+				22B4BDF62756708A005F25D9 /* ArtistGridView.swift */,
+				22B4BDF82756708D005F25D9 /* Assets.xcassets */,
+				22B4BDFA2756708D005F25D9 /* Preview Content */,
+				22B4BE1E2756A35D005F25D9 /* ArtistDetailsView.swift */,
+			);
+			path = DeezerExerciseSwiftUI;
+			sourceTree = "<group>";
+		};
+		22B4BDFA2756708D005F25D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22B4BDFB2756708D005F25D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22B4BE042756708D005F25D9 /* DeezerExerciseSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				283BFB0427577F1C00621AAE /* DZRArtistTests.swift */,
+				283BFB0627578C1D00621AAE /* SearchTests.swift */,
+			);
+			path = DeezerExerciseSwiftUITests;
+			sourceTree = "<group>";
+		};
+		22B4BE0E2756708D005F25D9 /* DeezerExerciseSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22B4BE0F2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift */,
+				22B4BE112756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = DeezerExerciseSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B4BDF02756708A005F25D9 /* DeezerExerciseSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B4BE152756708D005F25D9 /* Build configuration list for PBXNativeTarget "DeezerExerciseSwiftUI" */;
+			buildPhases = (
+				22B4BDED2756708A005F25D9 /* Sources */,
+				22B4BDEE2756708A005F25D9 /* Frameworks */,
+				22B4BDEF2756708A005F25D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeezerExerciseSwiftUI;
+			productName = DeezerExerciseSwiftUI;
+			productReference = 22B4BDF12756708A005F25D9 /* DeezerExerciseSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B4BE002756708D005F25D9 /* DeezerExerciseSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B4BE182756708D005F25D9 /* Build configuration list for PBXNativeTarget "DeezerExerciseSwiftUITests" */;
+			buildPhases = (
+				22B4BDFD2756708D005F25D9 /* Sources */,
+				22B4BDFE2756708D005F25D9 /* Frameworks */,
+				22B4BDFF2756708D005F25D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B4BE032756708D005F25D9 /* PBXTargetDependency */,
+			);
+			name = DeezerExerciseSwiftUITests;
+			productName = DeezerExerciseSwiftUITests;
+			productReference = 22B4BE012756708D005F25D9 /* DeezerExerciseSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22B4BE0A2756708D005F25D9 /* DeezerExerciseSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B4BE1B2756708D005F25D9 /* Build configuration list for PBXNativeTarget "DeezerExerciseSwiftUIUITests" */;
+			buildPhases = (
+				22B4BE072756708D005F25D9 /* Sources */,
+				22B4BE082756708D005F25D9 /* Frameworks */,
+				22B4BE092756708D005F25D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B4BE0D2756708D005F25D9 /* PBXTargetDependency */,
+			);
+			name = DeezerExerciseSwiftUIUITests;
+			productName = DeezerExerciseSwiftUIUITests;
+			productReference = 22B4BE0B2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B4BDE92756708A005F25D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					22B4BDF02756708A005F25D9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					22B4BE002756708D005F25D9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 22B4BDF02756708A005F25D9;
+					};
+					22B4BE0A2756708D005F25D9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 22B4BDF02756708A005F25D9;
+					};
+				};
+			};
+			buildConfigurationList = 22B4BDEC2756708A005F25D9 /* Build configuration list for PBXProject "DeezerExerciseSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B4BDE82756708A005F25D9;
+			productRefGroup = 22B4BDF22756708A005F25D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B4BDF02756708A005F25D9 /* DeezerExerciseSwiftUI */,
+				22B4BE002756708D005F25D9 /* DeezerExerciseSwiftUITests */,
+				22B4BE0A2756708D005F25D9 /* DeezerExerciseSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B4BDEF2756708A005F25D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B4BDFC2756708D005F25D9 /* Preview Assets.xcassets in Resources */,
+				22B4BDF92756708D005F25D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B4BDFF2756708D005F25D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B4BE092756708D005F25D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B4BDED2756708A005F25D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B4BDF72756708A005F25D9 /* ArtistGridView.swift in Sources */,
+				22B4BE1F2756A35E005F25D9 /* ArtistDetailsView.swift in Sources */,
+				22B4BDF52756708A005F25D9 /* DeezerExerciseSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B4BDFD2756708D005F25D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283BFB0727578C1D00621AAE /* SearchTests.swift in Sources */,
+				283BFB0527577F1C00621AAE /* DZRArtistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B4BE072756708D005F25D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B4BE102756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift in Sources */,
+				22B4BE122756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B4BE032756708D005F25D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B4BDF02756708A005F25D9 /* DeezerExerciseSwiftUI */;
+			targetProxy = 22B4BE022756708D005F25D9 /* PBXContainerItemProxy */;
+		};
+		22B4BE0D2756708D005F25D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B4BDF02756708A005F25D9 /* DeezerExerciseSwiftUI */;
+			targetProxy = 22B4BE0C2756708D005F25D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22B4BE132756708D005F25D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22B4BE142756708D005F25D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B4BE162756708D005F25D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeezerExerciseSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B4BE172756708D005F25D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeezerExerciseSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22B4BE192756708D005F25D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeezerExerciseSwiftUI.app/DeezerExerciseSwiftUI";
+			};
+			name = Debug;
+		};
+		22B4BE1A2756708D005F25D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeezerExerciseSwiftUI.app/DeezerExerciseSwiftUI";
+			};
+			name = Release;
+		};
+		22B4BE1C2756708D005F25D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeezerExerciseSwiftUI;
+			};
+			name = Debug;
+		};
+		22B4BE1D2756708D005F25D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeezerExerciseSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B4BDEC2756708A005F25D9 /* Build configuration list for PBXProject "DeezerExerciseSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B4BE132756708D005F25D9 /* Debug */,
+				22B4BE142756708D005F25D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B4BE152756708D005F25D9 /* Build configuration list for PBXNativeTarget "DeezerExerciseSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B4BE162756708D005F25D9 /* Debug */,
+				22B4BE172756708D005F25D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B4BE182756708D005F25D9 /* Build configuration list for PBXNativeTarget "DeezerExerciseSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B4BE192756708D005F25D9 /* Debug */,
+				22B4BE1A2756708D005F25D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B4BE1B2756708D005F25D9 /* Build configuration list for PBXNativeTarget "DeezerExerciseSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B4BE1C2756708D005F25D9 /* Debug */,
+				22B4BE1D2756708D005F25D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B4BDE92756708A005F25D9 /* Project object */;
+}

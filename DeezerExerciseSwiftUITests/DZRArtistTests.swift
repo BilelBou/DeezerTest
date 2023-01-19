@@ -38,11 +38,11 @@ class DZRArtistTests: XCTestCase {
             return
         }
         
-        let artist = DZRArtist(identifier: String(artistDict["id"] as? Int ?? 0),
+        let artist = DZRArtist(id: artistDict["id"] as? Int ?? 0,
                                name: artistDict["name"] as? String ?? "NA",
                                picture: nil)
         
-        XCTAssertEqual(artist.identifier, "216")
+        XCTAssertEqual(artist.id, 216)
         XCTAssertEqual(artist.name, "Toto")
 //        XCTAssertEqual(artist.picture, "https://api.deezer.com/artist/215/image")
     }

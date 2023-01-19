@@ -14,6 +14,16 @@
 		22B4BE102756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BE0F2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift */; };
 		22B4BE122756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BE112756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift */; };
 		22B4BE1F2756A35E005F25D9 /* ArtistDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4BE1E2756A35D005F25D9 /* ArtistDetailsView.swift */; };
+		24679A732978567D0049E565 /* DZRArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A722978567D0049E565 /* DZRArtist.swift */; };
+		24679A75297856C40049E565 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A74297856C40049E565 /* Manager.swift */; };
+		24679A7729785C400049E565 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A7629785C400049E565 /* DetailsViewModel.swift */; };
+		24679A7929785D230049E565 /* DZRAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A7829785D230049E565 /* DZRAlbum.swift */; };
+		24679A7E297861720049E565 /* DZRAlbumTrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A7D297861720049E565 /* DZRAlbumTrackList.swift */; };
+		24679A822978716A0049E565 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A812978716A0049E565 /* AudioManager.swift */; };
+		24679A85297876400049E565 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A84297876400049E565 /* PlayerView.swift */; };
+		24679A87297878540049E565 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A86297878540049E565 /* PlayerViewModel.swift */; };
+		24679A8929787C790049E565 /* PlayerControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24679A8829787C790049E565 /* PlayerControlButton.swift */; };
+		24A1C20529784E0A00E32316 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A1C20429784E0A00E32316 /* SearchViewModel.swift */; };
 		283BFB0527577F1C00621AAE /* DZRArtistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283BFB0427577F1C00621AAE /* DZRArtistTests.swift */; };
 		283BFB0727578C1D00621AAE /* SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283BFB0627578C1D00621AAE /* SearchTests.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +56,17 @@
 		22B4BE0F2756708D005F25D9 /* DeezerExerciseSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerExerciseSwiftUIUITests.swift; sourceTree = "<group>"; };
 		22B4BE112756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerExerciseSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22B4BE1E2756A35D005F25D9 /* ArtistDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsView.swift; sourceTree = "<group>"; };
+		24679A722978567D0049E565 /* DZRArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZRArtist.swift; sourceTree = "<group>"; };
+		24679A74297856C40049E565 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		24679A7629785C400049E565 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		24679A7829785D230049E565 /* DZRAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZRAlbum.swift; sourceTree = "<group>"; };
+		24679A7D297861720049E565 /* DZRAlbumTrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZRAlbumTrackList.swift; sourceTree = "<group>"; };
+		24679A7F2978657A0049E565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		24679A812978716A0049E565 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		24679A84297876400049E565 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		24679A86297878540049E565 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		24679A8829787C790049E565 /* PlayerControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlButton.swift; sourceTree = "<group>"; };
+		24A1C20429784E0A00E32316 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		283BFB0427577F1C00621AAE /* DZRArtistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZRArtistTests.swift; sourceTree = "<group>"; };
 		283BFB0627578C1D00621AAE /* SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,11 +119,15 @@
 		22B4BDF32756708A005F25D9 /* DeezerExerciseSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				24679A7F2978657A0049E565 /* Info.plist */,
 				22B4BDF42756708A005F25D9 /* DeezerExerciseSwiftUIApp.swift */,
-				22B4BDF62756708A005F25D9 /* ArtistGridView.swift */,
+				24679A83297876270049E565 /* PlayerView */,
+				24679A712978566F0049E565 /* Models */,
+				24679A70297856550049E565 /* Detail */,
+				24679A6F2978561F0049E565 /* Search */,
+				24679A8029786F3E0049E565 /* Audio */,
 				22B4BDF82756708D005F25D9 /* Assets.xcassets */,
 				22B4BDFA2756708D005F25D9 /* Preview Content */,
-				22B4BE1E2756A35D005F25D9 /* ArtistDetailsView.swift */,
 			);
 			path = DeezerExerciseSwiftUI;
 			sourceTree = "<group>";
@@ -131,6 +156,53 @@
 				22B4BE112756708D005F25D9 /* DeezerExerciseSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = DeezerExerciseSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		24679A6F2978561F0049E565 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				22B4BDF62756708A005F25D9 /* ArtistGridView.swift */,
+				24A1C20429784E0A00E32316 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		24679A70297856550049E565 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				22B4BE1E2756A35D005F25D9 /* ArtistDetailsView.swift */,
+				24679A7629785C400049E565 /* DetailsViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		24679A712978566F0049E565 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24679A74297856C40049E565 /* Manager.swift */,
+				24679A722978567D0049E565 /* DZRArtist.swift */,
+				24679A7829785D230049E565 /* DZRAlbum.swift */,
+				24679A7D297861720049E565 /* DZRAlbumTrackList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24679A8029786F3E0049E565 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				24679A812978716A0049E565 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		24679A83297876270049E565 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				24679A84297876400049E565 /* PlayerView.swift */,
+				24679A86297878540049E565 /* PlayerViewModel.swift */,
+				24679A8829787C790049E565 /* PlayerControlButton.swift */,
+			);
+			path = PlayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +336,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B4BDF72756708A005F25D9 /* ArtistGridView.swift in Sources */,
+				24679A8929787C790049E565 /* PlayerControlButton.swift in Sources */,
+				24679A732978567D0049E565 /* DZRArtist.swift in Sources */,
+				24679A7929785D230049E565 /* DZRAlbum.swift in Sources */,
+				24679A85297876400049E565 /* PlayerView.swift in Sources */,
+				24A1C20529784E0A00E32316 /* SearchViewModel.swift in Sources */,
+				24679A7E297861720049E565 /* DZRAlbumTrackList.swift in Sources */,
+				24679A75297856C40049E565 /* Manager.swift in Sources */,
+				24679A7729785C400049E565 /* DetailsViewModel.swift in Sources */,
 				22B4BE1F2756A35E005F25D9 /* ArtistDetailsView.swift in Sources */,
+				24679A87297878540049E565 /* PlayerViewModel.swift in Sources */,
+				24679A822978716A0049E565 /* AudioManager.swift in Sources */,
 				22B4BDF52756708A005F25D9 /* DeezerExerciseSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,20 +509,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeezerExerciseSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				DEVELOPMENT_TEAM = BMU7N4Q569;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DeezerExerciseSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -456,20 +539,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeezerExerciseSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 7QLUP2K45C;
+				DEVELOPMENT_TEAM = BMU7N4Q569;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DeezerExerciseSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.DeezerExerciseSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deezer.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
